@@ -44,8 +44,9 @@ public class ImageStreamReaderUtils {
       vBuffer.get(out, imageSize, 1);
       // Copy the first U value and the remaining VU values from the U buffer.
       uBuffer.get(out, imageSize + 1, 2 * imageSize / 4 - 1);
-    } else {Log.i("flutter", "planes are not NV21");
-
+    } else {
+      Log.i("flutter", "planes are not NV21");
+      Log.i("flutter", width);
       // Fallback to copying the UV values one by one, which is slower but also works.
       // Unpack Y.
       unpackPlane(yuv420888planes[0], width, height, out, 0, 1);
