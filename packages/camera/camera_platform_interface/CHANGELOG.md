@@ -1,77 +1,78 @@
 ## 2.4.0
 
-* Allows camera to be switched while video recording.
-* Updates minimum Flutter version to 3.0.
+- Allows camera to be switched while video recording.
+- Updates minimum Flutter version to 3.0.
+- Adds support for NV21 image format on Android.
 
 ## 2.3.4
 
-* Updates code for stricter lint checks.
+- Updates code for stricter lint checks.
 
 ## 2.3.3
 
-* Updates code for stricter lint checks.
+- Updates code for stricter lint checks.
 
 ## 2.3.2
 
-* Updates MethodChannelCamera to have startVideoRecording call the newer startVideoCapturing.
+- Updates MethodChannelCamera to have startVideoRecording call the newer startVideoCapturing.
 
 ## 2.3.1
 
-* Exports VideoCaptureOptions to allow dependencies to implement concurrent stream and record.
+- Exports VideoCaptureOptions to allow dependencies to implement concurrent stream and record.
 
 ## 2.3.0
 
-* Adds new capture method for a camera to allow concurrent streaming and recording.
+- Adds new capture method for a camera to allow concurrent streaming and recording.
 
 ## 2.2.2
 
-* Updates code for `no_leading_underscores_for_local_identifiers` lint.
+- Updates code for `no_leading_underscores_for_local_identifiers` lint.
 
 ## 2.2.1
 
-* Updates imports for `prefer_relative_imports`.
-* Updates minimum Flutter version to 2.10.
-* Fixes avoid_redundant_argument_values lint warnings and minor typos.
-* Ignores unnecessary import warnings in preparation for [upcoming Flutter changes](https://github.com/flutter/flutter/pull/104231).
-* Ignores missing return warnings in preparation for [upcoming analysis changes](https://github.com/flutter/flutter/issues/105750).
+- Updates imports for `prefer_relative_imports`.
+- Updates minimum Flutter version to 2.10.
+- Fixes avoid_redundant_argument_values lint warnings and minor typos.
+- Ignores unnecessary import warnings in preparation for [upcoming Flutter changes](https://github.com/flutter/flutter/pull/104231).
+- Ignores missing return warnings in preparation for [upcoming analysis changes](https://github.com/flutter/flutter/issues/105750).
 
 ## 2.2.0
 
-* Adds image streaming to the platform interface.
-* Removes unnecessary imports.
+- Adds image streaming to the platform interface.
+- Removes unnecessary imports.
 
 ## 2.1.6
 
-* Adopts `Object.hash`.
-* Removes obsolete dependency on `pedantic`.
+- Adopts `Object.hash`.
+- Removes obsolete dependency on `pedantic`.
 
 ## 2.1.5
 
-* Fixes asynchronous exceptions handling of the `initializeCamera` method.
+- Fixes asynchronous exceptions handling of the `initializeCamera` method.
 
 ## 2.1.4
 
-* Removes dependency on `meta`.
+- Removes dependency on `meta`.
 
 ## 2.1.3
 
-*  Update to use the `verify` method introduced in platform_plugin_interface 2.1.0.
+- Update to use the `verify` method introduced in platform_plugin_interface 2.1.0.
 
 ## 2.1.2
 
-* Adopts new analysis options and fixes all violations.
+- Adopts new analysis options and fixes all violations.
 
 ## 2.1.1
 
-* Add web-relevant docs to platform interface code.
+- Add web-relevant docs to platform interface code.
 
 ## 2.1.0
 
-* Introduces interface methods for pausing and resuming the camera preview.
+- Introduces interface methods for pausing and resuming the camera preview.
 
 ## 2.0.1
 
-* Update platform_plugin_interface version requirement.
+- Update platform_plugin_interface version requirement.
 
 ## 2.0.0
 
