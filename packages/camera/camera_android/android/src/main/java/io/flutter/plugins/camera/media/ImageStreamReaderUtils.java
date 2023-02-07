@@ -35,7 +35,6 @@ public class ImageStreamReaderUtils {
     byte[] out = new byte[imageSize + 2 * (imageSize / 4)];
 
     if (areUVPlanesNV21(yuv420888planes, width, height)) {
-      Log.i("flutter", "planes are NV21");
       // Copy the Y values.
       yuv420888planes[0].getBuffer().get(out, 0, imageSize);
 
