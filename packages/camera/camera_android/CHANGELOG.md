@@ -1,5 +1,6 @@
 ## 0.10.4
 
+- Fixes getAvailableCameras to return all possible cameras
 - Fixes false positive for CamcorderProfile deprecation warning
   that was already fixed.
 - Adds support for NV21 image format in Android.
