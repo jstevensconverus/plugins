@@ -115,8 +115,6 @@ public final class CameraUtils {
       }
     }
 
-
-    List<Map<String, Object>> cameras = new ArrayList<>();
     for (String cameraName : cameraNames) {
       int cameraId;
       try {
